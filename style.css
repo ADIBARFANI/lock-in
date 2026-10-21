@@ -1,0 +1,35 @@
+---
+
+### 2. File Desain & Antarmuka (`style.css`)
+
+```css
+/* Konfigurasi Global Aplikasi */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #0D1117;
+    color: #C9D1D9;
+}
+
+/* Modifikasi Scrollbar Khas Desktop App Premium */
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0D1117;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #30363D;
+    border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #8B949E;
+}
+
+/* Transisi Efek Hover Halus */
+a, button, input {
+    transition: all 0.2s ease-in-out;
+}
